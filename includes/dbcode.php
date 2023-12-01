@@ -1,16 +1,18 @@
 <?php
-    define("HOSTNAME","localhost");
-    define("USERNAME","root");
-    define("PASSWORD","");
-    define("DATABASE","products-catalogue");
-        $connection = mysqli_connect(HOSTNAME,USERNAME,PASSWORD,DATABASE);
 
-        if(!$connection){
-            die("connection failed");
-        }
-        else{
-            echo "yes";
-        }
+    $HOSTNAME = "localhost";
+    $USERNAME = "root";
+    $PASSWORD = "" ;
+    $DATABASENAME = "producst-catalogue";
 
+    $connection = mysqli_connect($HOSTNAME,$USERNAME,$PASSWORD,$DATABASENAME);
+    if(!$connection) {
+        die("connection failed");
 
+    }
+
+    else{
+        echo "yes";
+
+    } 
 ?>

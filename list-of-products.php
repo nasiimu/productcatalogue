@@ -4,69 +4,70 @@
   <head>
       <titlte>PRODUCTS LIST</titlte>
       <?php include 'includes/head.html';?>
+       <?php include 'includes/dbcode.php';?>  
   </head>    
   <body>
-        <div class ="row">
+      <div class ="row">
             <?php include 'includes/nav.php';?>
-        </div>
-        <table class="table-striped" border="aria-controls">
-              <thead>
-                  <tr>
-                    <th scope = "col">sr.No.</th>
-                    <th scope = "col">list-of-products</th>
-                    <th scope = "col">usage</th>
-                    <th scope = "col">application</th>
-                    <th scope = "col">price</th>
-                  </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <th scope ="row" mt-3>1</th>
-                  <td>Raw aloevera butter</td>
-                  <td>For deep skine moisturing</td>
-                  <td>For both face and body</td>
-                  <td>40$</td>
-                </tr>
-                <tr>
-                  <th scope ="row" mt-3>2</th>
-                  <td>Herbal orgasm honey@18+</td>
-                  <td>
-                      rich in vitamin B<br>
-                      aids in stamina and<br>
-                      provides aslow steady<br>
-                      release of energy
-                  </td>
-                  <td>men and wemen</td>
-                  <td>100$</td>
-                </tr>  
+      </div>
+      <table class="table table-striped table-bordered table-hover ">
+          <thead>
+              <tr>
+                <th scope = "col">id</th>
+                <th scope = "col">ProductName</th>
+                <th scope = "col">Image</th>
+                <th scope = "col">Price</th>
+                <th scope = "col">Description</th>
+                <td scoop ="col">Update</td>
+                <td scoop = "col">Delete</td>
                 
                 
-                <tr>
-                  <th scope ="row" mt-3>3</th>
-                  <td>Raw almonde oil</td>
-                  <td>
-                    Treatment of eczema & minor burns<br>
-                    pain relief from swelling & arthritis<br>
-                    sunscreen due to rich content of vitamins.E&D<br>
-                    treats dark spots,strechmarks,wrinkles,etc<br.
-                    massages,diaper rashes &as ahair conditioner
-                  </td>
-                  <td>for all skin types</td>
-                  <td>150$</td>
-                </tr>
-                <tr>
-                    <th scope ="row" mt-3>4</th>
-                    <td>Black rapunzal's krown kit shampoo</td>
-                    <td>
-                      it is drived from oncient hair treatment remedies<br>
-                      found in the original regacy<br>
-                      of 10 women of east africa<br>
-                      till today known for there long hair
-                    </td>
-                    <td>For both head and body</td>
-                    <td>100$</td>
-                </tr>
-              </body>
+              </tr>
+          </thead>
+          <tbody>
+                <div class = "container">
+                      <div class= "row">
+                    <?php
+                    require_once "includes/dbcode.php";
+                        $query = "SELECT * FROM products";
+                        $results = mysqli_query($connection,$query);
+                        if(!$results){
+                            die("query-failed" .'msqli_error'());
+                        }
+                            else{
+                                while($row = mysqli_fetch_assoc($results)){
+                                echo'<tr>';
+                                  echo '<td>' . $row['id'] . "</td>";
+                                  echo '<td>' . $row['ProductName'] . "</td>";
+                                  echo '<td>' . $row['ProductImage'] . "</td>";
+                                  echo '<td>' . $row['ProductPrice'] . "</td>";
+                                  echo '<td>' . $row['ProductDescription'] . "</td>";
+                                  echo '<td>'; 
+                                  echo '<a class ="btn btn-success" href="updateproducts.php?id='.$row['id'].'">Update </a>';
+                                  echo '</td>';
+
+                                  echo '<td>'; 
+                                  echo '<a class ="btn btn-danger" href="includes/processdelete.php?id='.$row['id'].'">Delete </a>';
+                                  echo '</td>';
+                                      
+                      
+                                  
+                              
+                          echo'</tr>';
+                              
+                                
+                                }
+                            }
+                    ?>
+              
+
+
+                </div>
+
+              </div>
+
+              
+            </tbody>
         </table>
   </body>
 </html>

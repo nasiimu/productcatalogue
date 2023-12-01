@@ -8,32 +8,42 @@
     <div class="container">
       <div class="row">
           <?php include 'includes/nav.php';?>
-        <div class="col-lg-4">
-          <img src="images/honeycomb.jpg" alt="baby" class="img-fluid">
-            What does African black soap do for your skin?<br>
-              Removes bacteria. ...<br>
-              Deep cleans your skin. ...<br>
-          </div>
-          <div class="col-lg-4">
-              <img src="images/honey.jpg" alt="GFG" class="img-fluid">
-              Exfoliates to help improve skin texture and tone. ...<br>
-              Reduces or prevents razor burn. ...<br>
-              Helps with mild skin rashes. ...<br>
-          </div>
-          <div class="col-lg-4">
-            <img src="images/beauty.jpg"  alt="nash" class="img-fluid">
-            Treats fungus. ...<br>
-              Moisturizes without stripping essential oils. ...<br>
-              May reduce the appearance of wrinkles and fine lines.<br>
-              More items...•17 Oct 2022<br>
-          </div>
+        <div class="col-lg-4 mt-3">
+          <img src="images/new.jpg" alt="new" class="img-fluid">
+          <img src="images/honeycomb.jpg" alt="honey" class="img-fluid">
         </div>
-      </div>
+        <div class="col-lg-4 mt-3">
+            <h2>products of africa</h2>
+            <div class = color:green:>
+            What is the beauty of skin?
+            Happy, healthy and beautiful<br>
+             skin is skin full of moisture,<br>
+             soft and non-dry to the touch.<br>
+              Smooth in texture,<br>
+              bright (no dullness), firm and plump.<br>
+               Healthy skin has an adequate balance of water<br>
+                and sebum, remains problem-free,<br>
+            
+          
+              <h1>feb 2023</h1>
+              
+            </div>
+        </div>
+          <div class="col-lg-4 mt-3">
+              <img src="images/new2.jpg" alt="new2" class="img-fluid">
+
+              <img src="images/africabblacksoap.jpg" alt="blacksoap" class="img-fluid">
+          </div>
 
       <div class ="row">
-        <footer class="footer mt-auto py-3 bg-dark">
-          <div class="container text-center text-white">
-            <span>&copy; 2023<h2>product of africa</h2></span>
+        <footer class="footer mt-2 py-3 bg-dark"  >
+          <div class="container text-center text-white ">
+            <div>
+            <img src="images/almonde.jpg"  alt="new" class="img-fluid">
+            <img src="images/new2.jpg"  alt="new2" class="img-fluid">
+            </div>
+            
+            <span>&copy; 2023<h3 CLASS = text-white>Product of africa</h3></span>
             <div class ="row">
               <div class ="col-lg-3">
                 <p>whatsapp</p>
