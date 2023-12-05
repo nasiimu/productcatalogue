@@ -63,7 +63,7 @@
                   <li>find us</li>
                   <li>instagram</li>
                   <li>twiter</li>
-                  <li>facebook</li>
+                  <li > <i class="fab fa-facebook"></i>facebook</li>
                   <li>youtube</li>
                 </ul>
               </div>

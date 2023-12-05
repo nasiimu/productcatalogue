@@ -10,9 +10,12 @@
             <table>
                 <thead>
                     <tr>
-                        <th>Name</th>
-                        <th>Tell</th>
-                        <th>Avatar</th>
+                        <th scope = "col">id</th>
+                        <th scope = "col">Name</th>
+                        <th scope = "col">Tell</th>
+                        <th scope = "col">Avatar</th>
+
+                        
                     </tr>
                 </thead>
                 <tbody>
@@ -31,11 +34,12 @@
                                   echo '<td>' . $row['id'] . "</td>";
                                   echo '<td>' . $row['Name'] . "</td>";
                                   echo '<td>' . $row['Tell'] . "</td>";
+                                  echo"<td><img src = 'data:image/jpeg;base64," . base64_encode($row['Avatar']) . 
+                                 "'  width = '50' height = '50' alt = 'Avatar'></td>";
+                             echo'<tr>'; 
 
                                                               
-                                  echo '<td>'; 
-                                  echo '<a class ="btn btn-primary" href="form.php?id='.$row['id'].'">uploadAvatar </a>';
-                                  echo '</td>';
+                                
                                 }
                             }
 

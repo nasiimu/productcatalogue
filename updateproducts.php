@@ -3,8 +3,7 @@
 <html>
     <head>
        <title>UPDATE</title>
-       <link rel="stylesheet" href="css/bootstrap.min.css">
-        <script src="js/bootstrap.min.js"></script>
+      
         <?php include 'includes/head.html';?>
         <?php include 'includes/dbcode.php';?>       
 
