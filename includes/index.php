@@ -1,5 +1,5 @@
-            <?php include('head.php');?>
-            <?php include('dbcode.php');?> 
+        <?php include('head.php');?>
+        <?php include('dbcode.php');?> 
 
 
 

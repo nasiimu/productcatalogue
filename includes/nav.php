@@ -11,40 +11,25 @@
             <a class="nav-link" href ="index.php">Home</a>
           </li>
 
-          <li class="nav-item">
-            <a class="nav-link" href="insertdata.php">Datalist</a>
-          </li>
           
           <li class="nav-item">
-            <a class="nav-link" href="add-products.php">Products</a>
+            <a class="nav-link" href="addproducts.php">AddProducts</a>
           </li>
 
 
 
-<li class="nav-item">
-            <a class="nav-link          " href="list-of-products.php">Productlist</a>
+          <li class="nav-item">
+
+            <a class="nav-link " href="list-of-products.php">Productlist</a>
               
           </li>
           <li class="nav-item">
-          <a class="nav-link" href="updateproducts.php">Update</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="profile.php">Profile</a>
-          </li>          
-          <li class="nav-item">
-            <a class="nav-link" href="Regestration.php">Regester</a>
-          </li>          
-          
-
-
-          
+          <a class="nav-link" href="About.php">About</a>
           
           
 
-        
-          
 
-        </ul>
+          </ul>
    </div>
   </div>
 </nav>

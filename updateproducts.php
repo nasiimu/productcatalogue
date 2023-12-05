@@ -12,49 +12,10 @@
     </head>
     <body>
         <div class="container">
+        <?php include 'includes/nav.php';?>
         <div class ="row">
-            <nav  class="navbar navbar-expand-lg bg-dark custom-navbar">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#"id ="log"><img src="images/logo.png" alt ="" width="70px"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    
-                    <li class="nav-item">
-                        <a class="nav-link" href ="index.php">Home</a>
-                    </li>
 
-                    <li class="nav-item">
-                        <a class="nav-link" href="about.php">About</a>
-                    </li>
-                    
-                    <li class="nav-item">
-                        <a class="nav-link" href="add-products.php">Products</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="deleteproducts.php">Delete</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="list-of-products.php">Productlist</a>
-                        
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="update-product.php">Update</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="profile.php">Profile</a>
-                    </li>
-                    
-                    
-
-                </ul>
-            </div>
             
-        </nav>
 
 
         <div class="container mt-3">
@@ -112,6 +73,32 @@
                 
                     <button type="submit" class="btn btn-success">update</button>
             </form>
+             <span>&copy; 2023<h3 CLASS = text-white>Product of africa</h3></span>
+            <div class ="row">
+              <div class ="col-lg-3">
+                <p>whatsapp</p>
+                <p>contacts</p>
+                <p>E-mail</p>
+                <p>call Now</p>
+              </div>
+              <div class ="col-lg-6">
+                <h3>Contact us</h3>
+                <p>located in florida USA</p>
+                <P>+17654323222</P>
+                <P>www.proofafricaus.com</P>
+              </div>
+
+              <div class ="col-lg-3">
+                <ul>
+                  <li>find us</li>
+                  <li>instagram</li>
+                  <li>twiter</li>
+                  <li>facebook</li>
+                  <li>youtube</li>
+                </ul>
+              </div>
+            </div>
+
             
         </div>
 
