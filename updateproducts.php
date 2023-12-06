@@ -72,31 +72,8 @@
                 
                     <button type="submit" class="btn btn-success">update</button>
             </form>
-             <span>&copy; 2023<h3 CLASS = text-white>Product of africa</h3></span>
-            <div class ="row">
-              <div class ="col-lg-3">
-                <p>whatsapp</p>
-                <p>contacts</p>
-                <p>E-mail</p>
-                <p>call Now</p>
-              </div>
-              <div class ="col-lg-6">
-                <h3>Contact us</h3>
-                <p>located in florida USA</p>
-                <P>+17654323222</P>
-                <P>www.proofafricaus.com</P>
-              </div>
+            <?Php include 'includes/footer.php';?>   
 
-              <div class ="col-lg-3">
-                <ul>
-                  <li>find us</li>
-                  <li>instagram</li>
-                  <li>twiter</li>
-                  <li>facebook</li>
-                  <li>youtube</li>
-                </ul>
-              </div>
-            </div>
 
             
         </div>

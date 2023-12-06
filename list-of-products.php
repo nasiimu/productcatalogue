@@ -4,7 +4,25 @@
   <head>
       <titlte>PRODUCTS LIST</titlte>
       <?php include 'includes/head.html';?>
-       <?php include 'includes/dbcode.php';?>  
+       <?php include 'includes/dbcode.php';?> 
+       <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: pink;
+            padding: 20px;
+           
+            color: white;
+           
+        }
+        h1, p {
+            margin-bottom: 20px;
+        }
+        <p>This is <span style="color: red;">red</span> text.</p>
+
+    </style>
+    
+       
   </head>    
   <body>
       <div class ="row">
@@ -70,32 +88,7 @@
             </tbody>
           </table>
           
-            <span>&copy; <h3 CLASS = text-white>Product of africa</h3></span>
-            <div class ="row">
-              <div class ="col-lg-3">
-                <p>whatsapp</p>
-                <p>contacts</p>
-                <p>E-mail</p>
-                <p>call Now</p>
-              </div>
-              <div class ="col-lg-6">
-                <h3>Contact us</h3>
-                <p>located in florida USA</p>
-                <P>+17654323222</P>
-                <P>www.proofafricaus.com</P>
-              </div>
-
-              <div class ="col-lg-3">
-                <ul>
-                  <li>find us</li>
-                  <li>instagram</li>
-                  <li>twiter</li>
-                  <li>facebook</li>
-                  <li>youtube</li>
-                </ul>
-              </div>
-            </div>
-          
+          <?Php include 'includes/footer.php';?>   
 
         
   </body>
