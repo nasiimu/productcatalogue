@@ -6,6 +6,23 @@
   <head>
        <title>Add products</title>
       <?php include 'includes/head.html';?>
+      <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: pink;
+            padding: 20px;
+           
+         
+           
+        }
+        h1, p {
+            margin-bottom: 20px;
+        }
+        <p>This is <span style="color: red;">red</span> text.</p>
+
+    </style>
+      
   </head>
   <body>
       <div class="container mt-5">

@@ -7,19 +7,14 @@
        <?php include 'includes/dbcode.php';?> 
        <style>
         body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
+            
             background-color: pink;
-            padding: 20px;
+      
            
-            color: white;
+            
            
         }
-        h1, p {
-            margin-bottom: 20px;
-        }
-        <p>This is <span style="color: red;">red</span> text.</p>
-
+       
     </style>
     
        
@@ -28,7 +23,7 @@
       <div class ="row">
             <?php include 'includes/nav.php';?>
       </div>
-      <table class="table table-striped table-bordered table-hover ">
+      <table class="table table-borderless">
           <thead>
               <tr>
                 <th scope = "col">id</th>

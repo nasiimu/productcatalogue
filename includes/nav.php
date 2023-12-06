@@ -19,12 +19,15 @@
 
 
           <li class="nav-item">
-
-            <a class="nav-link " href="list-of-products.php">Productlist</a>
+             <a class="nav-link " href="list-of-products.php">Productlist</a>
               
           </li>
+
           <li class="nav-item">
           <a class="nav-link" href="About.php">About</a>
+         
+         </form>
+
           
           
 
