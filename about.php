@@ -30,18 +30,21 @@
 <?php
 // Define information about your team or company
 $companyName = "proofAficanbeauty";
-$establishedYear = 2020;
+$establishedYear = 2007;
 $teamMembers = [
     "HassanBound" => "Founder & CEO",
-    "Jane Smith" => "HR",
-    "Abudkarimkiwalabye" => "Lead Developer",
-    "Nakamatte Nasiimu" => "Marketing Manager"
+    "Namayanja Ritah" => "HR",
+    "Mugoya Dihfahsih" => "Lead Developer",
+    "Nakamatte Nasiimu" => "Marketing Manager", 
+    "Gonza phiphi" => " chief product Manager",
+
+    
 ];
 ?>
 
 <h1>About Us - <?php echo $companyName; ?>proofAfrianbeauty</h1>
 
-<p>Welcome to <?php echo $companyName; ?>, a company dedicated to excellence in various skin types. We were established in 2007 in Florida USA<?php echo $establishedYear; ?> and have since been committed to delivering top-notch services.</p>
+<p>Welcome to <?php echo $companyName; ?>, a company dedicated to excellence in various skin types. We were established in Florida USA since <?php echo $establishedYear; ?> and have  been committed to delivering top-notch services for 16years now in experience.</p>
 
 <p>Our team is composed of talented individuals who are passionate about what they do. Meet some of the key members:</p>
 
